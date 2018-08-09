@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	 double length;
+	 Scanner in = new Scanner(System.in);
+     // (2(l+b))/b = 5/1
+     // area (l*b) = 216
+     // 2(l+b) = 5b
+     // 2l = 3b
+    // b = (2/3)*l;
+    // l * ((2/3)*l) = 216
+     length = Math.sqrt(324);
+     System.out.println("The length of the rectangle is : " + length);
+	}
+}
