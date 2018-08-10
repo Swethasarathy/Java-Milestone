@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) 
+    {
+         // Ratio of shares = 3x+4 : 4x+5: 5x+6
+         // Earned amount = 375
+         //  3x+4 : 4x+5 : 5x+6 = 375
+         //  3x + 4 + 4x + 5 + 5x + 6 = 375   
+         //  12x = 360
+         int x = 360/ 12;
+         int a = (3 * x) + 4;
+         int b = (4 * x) + 5;
+         int c = (5 * x) + 6;
+        System.out.println("The individual shares are : " + a  + " " + b + " " + c);
+        }            
+}
